@@ -6,13 +6,13 @@ export TF_STATE_OBJECT_KEY="serverless-jenkins.tfstate" # update your details
 export TF_LOCK_DB="xxx" # update your details
 export AWS_REGION="xxx" # update your details
 
-PRIVATE_SUBNETS='["subnet-xxx", "subnet-xxx"]' # update your details
-PUBLIC_SUBNETS='["subnet-xxx", "subnet-xxx"]' # update your details
-VPC_ID="vpc-xxx" # update your details
+PRIVATE_SUBNETS='["subnet-05912bef7edd88774", "subnet-0d209522d8da449ee"]' # update your details
+PUBLIC_SUBNETS='["subnet-0a00740b17216d3bd", "subnet-05444d938fd8f4328"]' # update your details
+VPC_ID="vpc-08714bdb4ac1c99bc" # update your details
 
 export TF_VAR_route53_create_alias="false"
-export TF_VAR_route53_zone_id="xxx" # update your details
-export TF_VAR_route53_domain_name="xxx.xxx" # update your details
+export TF_VAR_route53_zone_id="Z01257451J7VIO0GCCB5H" # update your details
+export TF_VAR_route53_domain_name="yanbozhu.net" # update your details
 # export TF_VAR_jenkins_admin_password="xxx"
 
 export TF_VAR_vpc_id=${VPC_ID}
